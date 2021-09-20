@@ -1,0 +1,27 @@
+header, nav, .nav-item {
+    width: 100%;
+}
+
+header {
+    font-weight: bold;
+    text-align: center;
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.nav-list {
+    display: flex;
+
+    width: 50vw;
+    min-width: 300px;
+
+    margin-top: 1em;
+
+    list-style: none;
+    font-size: clamp(1.3em, 2.5vw, 2em);
+    .nav-item {
+        cursor: pointer;  
+    }
+}
