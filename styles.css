@@ -74,6 +74,51 @@ section p {
   margin-bottom: 4em;
 }
 
+.dark-milk-banner {
+  width: 100%;
+  height: 10px;
+  margin-top: 0.5em;
+  background-color: #FFB389;
+}
+
+.comment {
+  text-align: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comment p {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  padding: 0;
+  margin-right: 0;
+  width: 80%;
+}
+
+.comment span {
+  color: #F58080;
+  width: 80%;
+  margin-bottom: 2em;
+}
+
+.comment .horizontal-bar {
+  width: 80%;
+  height: 10px;
+  border-radius: 2em;
+  background-color: #FFB389;
+  margin-bottom: 4em;
+  max-width: 500px;
+}
+
 #milk-boba {
   background-color: #F7E1D5;
 }
