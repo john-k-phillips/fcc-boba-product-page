@@ -143,6 +143,70 @@ section p {
   color: #F7E1D5;
 }
 
+footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFB389;
+  padding: 2em;
+  padding-bottom: 4em;
+  text-align: center;
+  font-size: clamp(1.3em, 2.5vw, 4em);
+  position: relative;
+}
+
+footer form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0.5em;
+  gap: 0.5em;
+  max-width: 768px;
+}
+
+footer form input {
+  padding: 1em;
+  font-size: 0.5em;
+  border: 4px solid #2D2D2D;
+  outline: none;
+  font-weight: bold;
+}
+
+footer form button {
+  border: 4px solid #2D2D2D;
+  padding: 0.5em;
+  font-size: 0.5em;
+  font-weight: bold;
+}
+
+footer form button:hover {
+  background-color: #F58080;
+}
+
+footer .created-by {
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 0.5em;
+  font-size: 0.6em;
+}
+
+footer .created-by .span-accent {
+  color: #F58080;
+}
+
 * {
   margin: 0;
   padding: 0;
