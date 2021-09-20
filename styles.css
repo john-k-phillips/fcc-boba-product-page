@@ -41,6 +41,7 @@ section {
   width: 100%;
   text-align: center;
   font-size: clamp(1em, 2vw, 2em);
+  position: relative;
 }
 
 section .details {
