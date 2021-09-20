@@ -15,6 +15,7 @@ header nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #F7E1D5;
 }
 
 .nav-list {
