@@ -37,6 +37,50 @@ header nav {
   color: #2D2D2D;
 }
 
+section {
+  width: 100%;
+  text-align: center;
+  font-size: clamp(1em, 2vw, 2em);
+  position: relative;
+}
+
+section .details {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4em;
+}
+
+section .tag {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+section h2 {
+  font-size: 1.5em;
+}
+
+section p {
+  max-width: 768px;
+  margin-bottom: 4em;
+}
+
+#milk-boba {
+  background-color: #F7E1D5;
+}
+
+#milk-boba .tag {
+  color: #F58080;
+}
+
 * {
   margin: 0;
   padding: 0;
