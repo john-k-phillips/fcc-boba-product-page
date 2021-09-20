@@ -82,6 +82,22 @@ section p {
   color: #F58080;
 }
 
+#matcha-boba {
+  background-color: #DCF7D5;
+}
+
+#matcha-boba .tag {
+  color: #F58080;
+}
+
+#strawberry-boba {
+  background-color: #F58080;
+}
+
+#strawberry-boba .tag {
+  color: #F7E1D5;
+}
+
 * {
   margin: 0;
   padding: 0;
