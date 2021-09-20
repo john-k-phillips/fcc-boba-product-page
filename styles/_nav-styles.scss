@@ -21,7 +21,12 @@ header {
 
     list-style: none;
     font-size: clamp(1.3em, 2.5vw, 2em);
+
     .nav-item {
         cursor: pointer;  
+    }
+    a {
+        text-decoration: none;
+        color: $clr-font-black;
     }
 }

@@ -32,6 +32,11 @@ header nav {
   cursor: pointer;
 }
 
+.nav-list a {
+  text-decoration: none;
+  color: #2D2D2D;
+}
+
 * {
   margin: 0;
   padding: 0;
