@@ -1,0 +1,52 @@
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: $clr-accent-dark-milk;
+    padding: 2em;
+    padding-bottom: 4em;
+
+    text-align: center;
+    font-size: clamp(1.3em, 2.5vw, 4em);
+    position: relative;
+
+    form {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5em;
+        gap: 0.5em;
+
+        max-width: 768px;
+        input {
+            padding: 1em;
+            font-size: 0.5em;
+            border: 4px solid $clr-font-black;
+            outline: none;
+            font-weight: bold;
+        }
+        button {
+            border: 4px solid $clr-font-black;
+            padding: 0.5em;
+            font-size: 0.5em;
+            font-weight: bold;
+            &:hover {
+                background-color: $clr-accent-strawberry;
+            }
+        }
+    }
+
+    .created-by {
+        position: absolute;
+        bottom: 0px;
+        margin-bottom: 0.5em;
+        font-size: 0.6em;
+        .span-accent {
+            color: $clr-accent-strawberry;
+        }
+    }
+}
+// Update
